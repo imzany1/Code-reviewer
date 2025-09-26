@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 
 
 app.use(cors({
-  origin: 'https://code-reviewer-1-8afe.onrender.com', // your actual frontend URL
+  origin: 'https://code-reviewer-1-8afe.onrender.com', // actual frontend URL
     methods: ["GET", "POST"],
   credentials: true
 })
